@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.history-item-container {
+  height: 50px;
+  border: 2px solid #cbd5e1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top: 0;
+  margin-top: 0;
+}
+.history-item {
+  font-size: 14px;
+  font-family: roboto;
+  margin-left: 18px;
+  width: 14%;
+}
+.delete-btn {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+}
+.delete-icon {
+  height: 18px;
+  width: 18px;
+}
